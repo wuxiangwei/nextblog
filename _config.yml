@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Simpleyyt
-subtitle: Yitao's Blog
-description: Too simple, sometimes naive.
-author: Simpleyyt
+title: Shanno's Blog
+subtitle: 修炼手册
+description: 知行合一，止于至善
+author: shanno
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -70,7 +70,7 @@ plugins:
  - jekyll-sitemap
  - jekyll-feed
 
-alipay: http://p1.bpimg.com/567571/9a4a158daee8aa69.png
+# alipay: http://p1.bpimg.com/567571/9a4a158daee8aa69.png
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -88,7 +88,7 @@ keywords: "Jekyll, NexT, simpleyyt, yitao"
 rss:
 
 # Specify the date when the site was setup
-since: 2015
+since: 2014
 
 # icon between year and author @Footer
 authoricon: heart
@@ -120,9 +120,9 @@ index_with_subtitle: false
 menu:
   home: /
   #categories: /categories/
-  #about: /about/
   archives: /archives/
   tags: /tags/
+  about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -215,8 +215,7 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: https://github.com/simpleyyt
-  知乎: http://www.zhihu.com/people/yaoyit
+  GitHub: https://github.com/wuxiangwei
 
 
 # Social Links Icons
@@ -229,8 +228,8 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  Twitter: twitter
-  Weibo: weibo
+  # Twitter: twitter
+  # Weibo: weibo
 
 
 # Sidebar Avatar
@@ -243,7 +242,7 @@ toc:
   enable: true
 
   # Automatically add list number to toc.
-  number: true
+  number: false
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
@@ -259,15 +258,15 @@ toc:
 sidebar:
   # Sidebar Position, available value: left | right
   position: left
-  #position: right
+  # position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: hide
-  #display: always
+  # display: hide
+  display: always
   #display: hide
   #display: remove
 
@@ -331,7 +330,8 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  # enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -370,24 +370,25 @@ mathjax:
 
 # Han Support docs: https://hanzi.pro/
 han: false
+# han: true
 
 # Swiftype Search API Key
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: 70b7e141dfc0ea2b204682f94ab2e01a
+# baidu_analytics: 70b7e141dfc0ea2b204682f94ab2e01a
 
 # Duoshuo ShortName
 #duoshuo_shortname:
 
 # Disqus
-disqus:
-  enable: true
-  shortname: simpleyyt
-  count: true
-  # hide comments (visitors need to click to load the comments)
-  # count need to be false when hide is true
-  hide: false
+# disqus:
+  # enable: true
+  # shortname: simpleyyt
+  # count: true
+  # # hide comments (visitors need to click to load the comments)
+  # # count need to be false when hide is true
+  # hide: false
 
 # Hypercomments
 #hypercomments_id:
@@ -426,10 +427,10 @@ jiathis: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-google_site_verification: hxyd6b4vb-uzYY6dVuzz4KXhScoVoEUjtiRWYSJVlrY
+# google_site_verification: hxyd6b4vb-uzYY6dVuzz4KXhScoVoEUjtiRWYSJVlrY
 
 # Google Analytics
-google_analytics: UA-67994495-1
+# google_analytics: UA-67994495-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -445,11 +446,11 @@ google_analytics: UA-67994495-1
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id: 0
-  #admin_nickname: Author
+# duoshuo_info:
+  # ua_enable: true
+  # admin_enable: false
+  # user_id: 0
+  # #admin_nickname: Author
 
 
 # Facebook SDK Support.
@@ -591,11 +592,11 @@ pace: false
 #pace-theme-fill-left
 #pace-theme-flash
 #pace-theme-loading-bar
-#pace-theme-mac-osx
+# pace_theme: pace-theme-mac-osx
 #pace-theme-minimal
 # For example
-# pace_theme: pace-theme-center-simple
-pace_theme: pace-theme-minimal
+pace_theme: pace-theme-center-simple
+# pace_theme: pace-theme-minimal
 
 # Canvas-nest
 canvas_nest: false
